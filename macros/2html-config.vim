@@ -17,7 +17,7 @@ scriptencoding utf-8
 "let g:html_diff_one_file = 0
 
 "  1:   diffでの表示の際、差分の無い箇所を詰めない
-"  none diffでの表示の際、差分を詰めて表示する
+"  none diffでの表示の際、差分を詰めて表示する（デフォルト）
 "let g:html_whole_filler = 1
 
 "  1:    行番号を表示する
