@@ -2,6 +2,24 @@ scriptencoding utf-8
 " vim: set et nowrap ff=unix ft=vim :
 
 " ------------------------------------------------------------
+" クリア
+unlet! g:html_no_progress
+unlet! g:html_diff_one_file
+unlet! g:html_whole_filler
+unlet! g:html_number_lines
+unlet! g:html_ignore_conceal
+unlet! g:html_ignore_folding
+unlet! g:html_no_pre
+unlet! g:html_expand_tabs
+unlet! g:html_use_css
+unlet! g:html_dynamic_folds
+unlet! g:html_no_foldcolumn
+unlet! g:html_hover_unfold
+unlet! g:html_use_encoding
+unlet! g:html_use_xhtml
+
+
+" ------------------------------------------------------------
 " 機能
 
 "  1: HTML化時にプログレスバーを表示しない
@@ -14,9 +32,9 @@ scriptencoding utf-8
 
 "  1: diff時に単体のウィンドウをHTML化
 "  0: diff時に全ての関連ウィンドウをまとめてHTML化（デフォルト）
-"let g:html_diff_one_file = 0
+"let g:html_diff_one_file = 1
 
-"  1:   diffでの表示の際、差分の無い箇所を詰めない
+"  1:   diffでの表示の際、差分の無い箇所を詰めずに全体を表示
 "  none diffでの表示の際、差分を詰めて表示する（デフォルト）
 "let g:html_whole_filler = 1
 
@@ -71,5 +89,8 @@ scriptencoding utf-8
 "  1:    XHTML形式のファイルを生成する
 "  none: HTML 4.01のHTMLを生成する（デフォルト）
 "let g:html_use_xhtml = 1
+
+
+finish
 
 
