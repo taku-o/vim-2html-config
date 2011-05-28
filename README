@@ -1,9 +1,15 @@
 https://github.com/taku-o/vim-2html-config
 
-vim ':TOhtml' command option sample.
+標準でないHTML出力をを':TOhtml'コマンドで行う場合に、
+設定ファイル'macros/2html-config.vim'を改変後、':source %'コマンドで読み込み、HTML出力の設定を変更します。
 
-1. customize macros/2html-config.vim
-2. source macros/2html-config.vim
-3. execute :TOhtml
+1. 2html-config.vimを変更
+2. 保存
+3. 次のコマンドで設定読込
+   :source %
+4. HTML化したいファイルで、次のコマンド実行
+   :TOhtml
+5. HTML化の範囲指定は次のように
+   :5,90TOhtml
 
 
