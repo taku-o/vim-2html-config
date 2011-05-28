@@ -1,0 +1,9 @@
+https://github.com/taku-o/vim-2html-config
+
+vim ':TOhtml' command option sample.
+
+1. customize macros/2html-config.vim
+2. source macros/2html-config.vim
+3. execute :TOhtml
+
+
